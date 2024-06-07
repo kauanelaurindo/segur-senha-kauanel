@@ -11,9 +11,21 @@
     --Roboto-mono:'Roboto-Mono', sans-serif;
 }
 
+*{
+    font-weight: 400;
+}
+
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--Roboto);
-    
+}
+
+.titulo-principal{
+    font-family: var(--Roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font: 24px;
 }
