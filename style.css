@@ -86,3 +86,10 @@ body{
     width: 50%;
     margin: 0 auto;
     }
+
+    @media screen and (min-widht:768px){
+        .parametro-coluna__senha{
+            flex-direction: row;
+        }
+        
+    }
